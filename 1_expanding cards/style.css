@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -21,6 +20,7 @@
     width: 90vw;
     height: 80vh;
     justify-content: space-around;
+    
   }
   .panel{
     background-size: auto 100%;
@@ -33,6 +33,7 @@
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
+    background-color: black;
   }
   .panel h3{
     font-size: 24px;
@@ -59,6 +60,13 @@
 
     .panel:nth-child(4),.panel:nth-child(5){
       display: none;
+    }
+    
+  }
+  @media (min-width: 900px) {
+    .panel.active{
+      
+      background-size: 100% 100%;
     }
     
   }
