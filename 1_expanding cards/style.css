@@ -33,7 +33,6 @@
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
-    background-color: black;
   }
   .panel h3{
     font-size: 24px;
