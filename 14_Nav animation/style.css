@@ -18,7 +18,7 @@
 
   nav{
     background-color: white;
-    padding: 20px;
+    padding: 20px  0px;
     width: 80px;
     display: flex;
     align-items: center;
@@ -26,10 +26,14 @@
     border-radius: 3px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: width .6s linear;
+    
   }
 
   nav.active{
     width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
   }
 
   nav ul{
@@ -38,19 +42,21 @@
     padding: 0px;
     margin: 0px;
     width: 0;
-
     transition: width 1s linear  ;
   }
 
   nav.active ul{
     width: 100%;
     transition: width 0.3s linear  ;
+    justify-content: space-between;
+    
   }
 
   nav ul li{
     transform: rotateY(0deg);
     opacity: 0;
     transition: transform 0.6s linear, opacity 0.8s linear ;
+    padding-right: 10px;
 
   }
 
@@ -64,7 +70,7 @@
     position: relative;
     color: #000;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0px;
   }
   .nav.active  .icon{
     float: left;
@@ -77,6 +83,7 @@
     cursor: pointer;
     height: 30px;
     width: 30px;
+    padding-right: 25px;
     position: relative;
   }
 
@@ -98,6 +105,7 @@
     bottom: 10px;
    
   }
+  
 
   nav.active .icon .line1{
     transform: rotate(-45deg) translateY(+2.9px) translateX(-2.5px);
