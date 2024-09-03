@@ -31,7 +31,7 @@ generate.addEventListener('click',()=>{
 })
 
 
-copied.addEventListener('click', ()=>{
+clipboard.addEventListener('click', ()=>{
     const Textarea = document.createElement('textarea')
     const password = result.innerText
 
