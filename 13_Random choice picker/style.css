@@ -34,6 +34,13 @@
     margin: 0 0 20px;
     font-size :16px;
   }
+  #tags{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
   .tag{
     background-color: #f0932b;
